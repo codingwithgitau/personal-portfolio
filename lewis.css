@@ -100,6 +100,10 @@ nav .right a span{
 
 .hero-section .headshot img{
     width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top; 
     border-radius: 50%;
  
 
@@ -146,10 +150,10 @@ nav .right a span{
 .skills-section .cells .cell img {
     width: 60px;
     height: 60px;
-    object-fit: contain; /* maintains aspect ratio */
-    border-radius: 8px; /* optional: for smoother corners */
-    background-color: white; /* optional: adds consistency */
-    padding: 5px; /* optional: avoids edges touching */
+    object-fit: contain; 
+    border-radius: 8px; 
+    background-color: white;
+    padding: 5px; 
 }
 
 
